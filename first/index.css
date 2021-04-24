@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+}
+
+header {
+    background-color: #444;
+    width: 100vw;
+    height: 172px;
+}
+
+main {
+    background-color:#EFEFEF;
+    width: 100vw;
+    height: 554px;
+}
+section {
+    width: 135px;
+    background-color: #d8d8d8 ;
+    height: 657px;
+}
+.section-one {
+    float: left;
+}
+.section-two {
+    float: right;
+}
+footer {
+    background-color: #222;
+    width: 100vw;
+    height: 103px;
+}
