@@ -4,20 +4,22 @@ body {
 .purple {
     width: 50px;
     height: 150px;
-    background-color: purple;
+    background-color: #8A2BE2;
     display: inline-block;
 }
 .green {
-    width: 50px;
-    height: 150px;
+    width: 400px;
+    height: 200px;
     background-color: green;
     display: inline-block;
+    margin: 0 50px;
 }
 .circle {
-    width: 50px;
-    height: 150px;
-    background-color: blue;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
     display: inline-block;
+    border-radius: 50%;
 }
 header {
     box-sizing: border-box;
@@ -27,7 +29,7 @@ header {
     width: 90vw;
     height: 225px;
     margin: 0 auto;
-
+    padding: 10px;
 }
 main {
     box-sizing: border-box;
@@ -48,11 +50,17 @@ main {
 }
 footer {
     border: 1px solid lightgray; 
-    width: 75vw;
-    height: 120px;
+    width: 50vw;
+    height: 320px;
     margin: 0 auto;
     margin-top: 20px;
     box-shadow: 5px 5px 3px #c6c6c6;
     text-align: center;
-
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #000080;
+    letter-spacing: .3rem;
+    font-weight: 550;
+    box-sizing: border-box;
+    padding: 130px 200px;
 }
