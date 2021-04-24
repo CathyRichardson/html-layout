@@ -3,17 +3,31 @@ body {
 }
 .purple {
     width: 50px;
-    height: 150;
+    height: 150px;
     background-color: purple;
+    display: inline-block;
+}
+.green {
+    width: 50px;
+    height: 150px;
+    background-color: green;
+    display: inline-block;
+}
+.circle {
+    width: 50px;
+    height: 150px;
+    background-color: blue;
+    display: inline-block;
 }
 header {
     box-sizing: border-box;
     border-style: solid;
-    border-width: 2px;
+    border-width: 5px;
     border-color: black;
     width: 90vw;
     height: 225px;
     margin: 0 auto;
+
 }
 main {
     box-sizing: border-box;
@@ -24,8 +38,7 @@ main {
     height: 300px;
     margin: 0 auto;
     padding: 50px;
-    /* margin-top: 20px;
-    padding: 50px; */
+    margin-top: 20px;
 }
 .main-content {
     width: 100%;
