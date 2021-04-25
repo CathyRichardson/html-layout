@@ -1,0 +1,40 @@
+div {
+    width: 100vw;
+    height: 20vh;
+}
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: #D8D8D8;
+    box-sizing: border-box;
+    padding-top: 7px;
+    padding-left: 25px;
+}
+nav {
+    background-color: #4A90E2;
+    width: 13vh;
+    height: 13vh;
+
+}
+main{
+    background-color: white;
+    width: 100vw;
+    height: 35vh;
+    font-family: Helvetica, sans-serif;
+    font-size: 20pt;
+    font-weight: 100;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.blue {
+    background-color: #4A90E2;
+}
+.aqua {
+    background-color: #50E3C2;
+}
+.lime {
+    background-color: #B8E986;
+}
+.yellow {
+    background-color: #F8E71C;
+}
